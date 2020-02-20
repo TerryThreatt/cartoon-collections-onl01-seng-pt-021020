@@ -1,5 +1,10 @@
-def roll_call_dwarves# code an argument here
+def roll_call_dwarves(array)# code an argument here
   # Your code here
+  i = 0 
+  While i < array.length
+    yield(array[i])
+    i += 1
+  end
 end
 
 def summon_captain_planet# code an argument here
