@@ -1,5 +1,7 @@
 def roll_call_dwarves(array)
   array.collect do |dwarf, index|
+    i = 1 
+    i += 1 
     puts "#{index}. #{dwarf}"
   end 
 end
