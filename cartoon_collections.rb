@@ -3,7 +3,7 @@ def roll_call_dwarves(array)# code an argument here
   i = 0 
   While i < array.length
     yield(array[i])
-    i += 1
+      i += 1
   end
 end
 
