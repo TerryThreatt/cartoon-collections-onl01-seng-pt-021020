@@ -1,5 +1,4 @@
-def roll_call_dwarves(array)# code an argument here
-  # Your code here
+def roll_call_dwarves(array)
   i = 0 
   While i < array.length
     yield(array[i])
